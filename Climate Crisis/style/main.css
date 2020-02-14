@@ -49,16 +49,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-scroller .nav {
-    display: -ms-flexbox;
+    /*display: -ms-flexbox;*/
     display: flex;
-    -ms-flex-wrap: nowrap;
+    /*-ms-flex-wrap: nowrap;*/
     flex-wrap: nowrap;
     padding-bottom: 1rem;
     margin-top: -1px;
     overflow-x: auto;
     text-align: center;
     white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+    /*-webkit-overflow-scrolling: touch;*/
 }
 
 .nav-scroller .nav-link {
@@ -124,4 +124,14 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     text-overflow: ellipsis;
     color: #007bff !important;
+}
+
+/* Maximum Size*/
+.max-size {
+    max-width: 750px;
+}
+
+/*Post Spacing*/
+.postSpacingTop{
+    margin-top: 3%;
 }
