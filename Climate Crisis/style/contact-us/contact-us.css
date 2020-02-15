@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background: #F2F3EB;
+    /*background: #F2F3EB;*/
 }
 
 button {
@@ -56,7 +56,7 @@ h1 {
 .underline {
     border-bottom: solid 2px #474544;
     margin: -0.512em auto;
-    width: 80px;
+    width: 180px;
 }
 
 .icon_wrapper {

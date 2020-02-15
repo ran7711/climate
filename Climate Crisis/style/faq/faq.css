@@ -1,0 +1,18 @@
+.btnSizing{
+    max-width: 35px;
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    border-style: none;
+    background: none;
+}
+
+.imageSizing{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+p{
+    margin-top: 20px;
+}
+
