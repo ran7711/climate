@@ -5,7 +5,7 @@
     <title>Title</title>
 
     <script src="lib/jQuery/jquery-3.4.1.min.js"></script>
-
+    <script src="scripts/contact-us/contact-us.js"></script>
     <!--    Bootstrap Import-->
     <link rel="stylesheet" type="text/css"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -14,8 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style/main.css">
     <link rel="stylesheet" type="text/css" href="style/contact-us/contact-us.css">
 
-    <script src="lib/jQuery/jquery-3.4.1.min.js"></script>
-    <script src="scripts/contact-us/contact-us.js"></script>
+
 
 
 </head>
@@ -66,6 +65,13 @@
                 <label for="name"></label>
                 <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
             </div>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" onclick="onRadioBtnC()">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" onclick="onRadioBtnC()">
+
             <div class="subject">
                 <label for="subject"></label>
                 <select placeholder="Subject line" name="subject" id="subject_input" required>
@@ -75,10 +81,10 @@
                     <option>I'd like to make a proposal</option>
                 </select>
             </div>
+
             <div class="message">
                 <label for="message"></label>
-                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5"
-                          required></textarea>
+                <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
             </div>
             <div class="submit d-flex justify-content-center">
                 <input type="submit" value="Send Message" id="form_button"/>
