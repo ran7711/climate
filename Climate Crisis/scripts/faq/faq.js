@@ -12,10 +12,12 @@ $(function() {
     //     // do something...
     //     console.log("clicked");
     // })
-    //
-    // // $('.collapse').collapse()
-    // $('.collapse').collapse({
-    //     toggle: true
+
+
+    // $('').on('click', function () {
+    //     // do something...
+    //     console.log('click');
+    //     $(this).toggleClass("show");
     // });
 
 
