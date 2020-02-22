@@ -1,25 +1,36 @@
 "use strict";
 
-$(function() {
+    function renderData(){
 
-    // $('.card').on('click', function () {
-    //     // do something...
-    //     console.log('click');
-    //     $(this).toggleClass("show");
-    // });
+        renderBtnAttributes();
+        renderCardClasses();
 
-    // $('.collapse').on("hidden.bs.collapse", function () {
-    //     // do something...
-    //     console.log("clicked");
-    // })
+    }
+    function renderBtnAttributes(){
 
+        var faqs = document.querySelectorAll(".btnSizing");
 
-    // $('').on('click', function () {
-    //     // do something...
-    //     console.log('click');
-    //     $(this).toggleClass("show");
-    // });
+        for (var i = 0; i < faqs.length ; i++){
 
+            // faqs[i].addEventListener("click",toggleFaq(i))
+            faqs[i].setAttribute("onclick", "toggleFaq(" + i + ");");
+        }
+    }
 
-});
+    function renderCardClasses(){
+
+        var hiddenCards = document.querySelectorAll(".collapse");
+
+        for (var i = 0; i < hiddenCards.length ; i++){
+
+            // faqs[i].addEventListener("click",toggleFaq(i))
+            hiddenCards[i].setAttribute("class", "collapse hiddenCard" + i );
+        }
+
+    }
+
+    function toggleFaq(i){
+        console.log('clicked',i);
+        $('.hiddenCard' + i).toggle();
+    }
 
