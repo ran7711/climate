@@ -3,9 +3,12 @@
 $(function() {
 
     $("#contact_form").submit(function(event) {
+
         /* Preventing Page from Refreshing*/
         event.preventDefault();
-        var form = $("contact_form").serialize();
+
+        var form = $( this ).serializeArray();
+        console.log($("contact_form"));
         console.log(form);
 
         // $.ajax({
