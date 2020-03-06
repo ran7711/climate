@@ -34,12 +34,12 @@ function onRadioBtnC(){
 
 function cleanEmail(email){
 
-    var notAllowedChars = ['!','#','$','%','^','&','*','(',')','=','+','[',']',';','\'','\\','"',':','/',',','javascript','script'];
+    var notAllowedCharsARR = ["!","#","$","%","^","&","*","(",")","=","+","[","]",";","\"","\\","'",":","/"];
 
     for (var i = 0; i < email.length ; i++){
-        for (var j = 0; j < notAllowedChars.length ; j++){
-            if (email[i] === notAllowedChars[j]){
-                email = email.replace(notAllowedChars[j], '');
+        for (var j = 0; j < notAllowedCharsARR.length ; j++){
+            if (email[i] === notAllowedCharsARR[j]){
+                email = email.replace(notAllowedCharsARR[j],"");
             }
         }
     }
@@ -51,14 +51,15 @@ function sendForm(form){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "form_handler.php",
+        url: "form_handler.php", /* Backend Server URL should catch the form */
         data: form,
         success: function() {
             // callback code here
-            console.log('Success');
+            console.log("Success");
         },
         error: function (data) {
-            console.log('An error occurred.');
+            console.log("An error occurred.");
+            console.log(form);
             console.log(data);
         }
     });
