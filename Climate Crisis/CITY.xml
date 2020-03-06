@@ -1,43 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<breakfast_menu>
-    <food>
-        <name>Belgian Waffles</name>
-        <price>$5.95</price>
+
+
+<?xml-stylesheet type="text/css" href="xml.css"?>
+
+
+<!DOCTYPE Hottest.Cities [
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT  Temperature (#PCDATA)>
+        <!ELEMENT description (#PCDATA)>
+        ]>
+
+
+<Hottest.Cities>
+
+
+
+    <City>
+        <name>Bangkok</name>
+        <Temperature>104.5 degrees F (40 degrees C)</Temperature>
         <description>
-            Two of our famous Belgian Waffles with plenty of real maple syrup
+            According to the World Meteorological Organization, Bangkok is the hottest
+            city on the planet—not because of any particularly impressive peak temperatures,
+            but because it is consistently hot all year round. The city boasts a mean annual
+            temperature of 84.5 degrees F (29 degrees C), coupled with high humidity and an
+            average of 128 rainy days per year; while the highest temperature on record is
+            104.5 degrees F (40 degrees C). Despite Bangkok’s sticky weather, there are plenty
+            of reasons to visit the capital of Thailand, ranging from iconic landmarks like
+            The Grand Palace and Wat Pho (The Temple of the Reclining Buddha), to the city’s
+            bustling street markets and infamous nightlife scene.
         </description>
-        <calories>650</calories>
-    </food>
-    <food>
-        <name>Strawberry Belgian Waffles</name>
-        <price>$7.95</price>
+
+    </City>
+
+
+
+
+    <City>
+        <name>Mali</name>
+        <Temperature> 120 degrees F (49 degrees C)</Temperature>
         <description>
-            Light Belgian waffles covered with strawberries and whipped cream
+            Located on the southern edge of the Sahara Desert, the African city of Timbuktu
+            is synonymous with everything remote. It’s also one of the hottest cities in
+            the world, with a hot, dry climate offering record highs of 20 degrees F (49 degrees C).
+            Throughout April, May and June, average maximum temperatures exceed 104 degrees F (40 degrees C).
+            Modern-day Timbuktu is slowly being reclaimed by the desert and is undeniably a
+            shadow of the trade hub that it once was. With a history dating back to the 12th
+            century and a rich heritage of Islamic scholarship, there are still fascinating
+            sights to explore within its ochre-colored walls.
         </description>
-        <calories>900</calories>
-    </food>
-    <food>
-        <name>Berry-Berry Belgian Waffles</name>
-        <price>$8.95</price>
+
+    </City>
+
+
+
+    <City>
+        <name>Ahvaz</name>
+        <temperature>129 degrees F (54 degrees C)</temperature>
         <description>
-            Belgian waffles covered with assorted fresh berries and whipped cream
+            Built on the banks of the Karun River, Ahvaz is an industrial city with average highs of around
+            115 degrees F (46 degrees C) during July, its warmest month. The city’s record high is a
+            fever-inducing 129 degrees F (54 degrees C), making it a contender for hottest place in
+            the world during the summer. Frequent sand and dust storms and an absence of rain from
+            July to September compound its sky-high temperatures. Unlike the rest of Iran, there are
+            few reasons to visit Ahvaz, which was ranked as the world’s most air-polluted city in
+            2011; however, the riverbank offers a series of parks and bridges that make it
+            both the coolest and the most scenic part of the city.
         </description>
-        <calories>900</calories>
-    </food>
-    <food>
-        <name>French Toast</name>
-        <price>$4.50</price>
+
+    </City>
+
+
+
+    <City>
+        <name>Kuwait </name>
+        <Temperature> 126 degrees F (52 degrees C)</Temperature>
         <description>
-            Thick slices made from our homemade sourdough bread
+            This wealthy Arab metropolis is the capital of Kuwait and another contender for
+            the title of one of the hottest cities in the world with average highs of over
+            113 degrees F (45 degrees C) from June to August. Nightfall brings little respite,
+            with after-dark low temperatures often exceeding 86 degrees F (30 degrees C)
+            during the summer months. Kuwait City’s record high is 126 degrees F (52 degrees C),
+            while it rains on an average of just 19 days per year. Visitors shouldn’t be put off
+            by these eye-watering statistics, however, as Kuwait City offers an intriguing blend
+            of past and present expressed via an eclectic roster of museums, art galleries,
+            upscale malls and traditional souqs.
         </description>
-        <calories>600</calories>
-    </food>
-    <food>
-        <name>Homestyle Breakfast</name>
-        <price>$6.95</price>
+
+    </City>
+
+
+
+    <City>
+        <name>Mecca</name>
+        <Temperature> 121.6 degrees F (49.8 degrees C)</Temperature>
         <description>
-            Two eggs, bacon or sausage, toast, and our ever-popular hash browns
+            Famous as the birthplace of Muhammad, Mecca is Islam’s holiest city.
+            It’s also another scorchingly hot destination, with around 22 rainy
+            days per year and average annual highs of 100.5 degrees F (38 degrees C).
+            The highest temperature recorded in the city is 121.6 degrees F
+            (49.8 degrees C), but even in winter, average temperatures hover at a balmy 77
+            degrees F (25 degrees C). Of course, the majority of Mecca’s visitors aren’t
+            there for the weather—instead, millions of Muslim pilgrims arrive each year
+            to perform the Hajj. The city is home to the world’s largest mosque, Masjid
+            al-Haram, and the Kaaba, considered the House of Allah; however, Mecca is
+            strictly off-limits to non-Muslim visitors, although that may change
+            in the future once Saudi Arabia starts issuing tourist visas to non-Muslims.
         </description>
-        <calories>950</calories>
-    </food>
-</breakfast_menu>
+
+</City>
+
+
+
+
+
+    <City>
+        <name>Marrakech</name>
+        <Temperature> 120 degrees F (49 degrees C)</Temperature>
+        <description>
+            An intoxicating riot of noise and color, semi-arid Marrakech boasts a record high of
+            120 degrees F (49 degrees C). The city’s hottest months are July and August, with
+            average highs exceeding 97 degrees F (36 degrees C). Although sub-freezing temperatures
+            have been recorded in the winter months, Marrakech nevertheless manages to maintain
+            a warm mean annual temperature of 67 degrees F (19.5 degrees C). A wider temperature
+            spectrum means that visitors can choose to visit during the season that suits
+            them best. Once there, there are plenty of ways to experience the city—from exploring
+            the chaotic souqs of the Medina to relaxing in one of Marrakech’s famous hammam spas.
+        </description>
+
+    </City>
+
+
+
+
+    <City>
+        <name>Phoenix</name>
+        <Temperature> 122 degrees F (50 degrees C)</Temperature>
+        <description>
+            Although Miami has the highest mean annual temperature of any U.S. city, the
+            Arizona capital claims the hottest average highs in summer. Between 1981
+            and 2010, Phoenix boasted an average of 107 days per year with a high of
+            at least 100 degrees F (38 degrees C), while the city’s record high is a
+            staggering 122 degrees F (50 degrees C) With approximately 300 days of
+            sunshine every year, the weather alone is a good reason to visit Phoenix,
+            but the Southwest city also has its fair share of theatres, galleries and
+            sports stadiums. Highlights of what is sometimes the hottest place in the
+            world include the Heard Museum’s Native American artworks, and the breathtaking
+            flora of the Desert Botanical Garden.
+        </description>
+
+    </City>
+
+
+
+
+
+</Hottest.Cities>
