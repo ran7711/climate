@@ -21,6 +21,7 @@ function buildNav(baseUrl){
     htmlEle += '<a class="p-2 text-muted" href=' + baseUrl + '/articles/Responding%20to%20Climate%20Change/Responding%20to%20Climate%20Change.html>Article 6</a>';
     htmlEle += '<a class="p-2 text-muted" href=' + baseUrl + '/faq.html>FAQ</a>';
     htmlEle += '<a class="p-2 text-muted" href=' + baseUrl + '/contact-us.html>Contact Us</a>';
+    htmlEle += '<a class="p-2 text-muted" href=' + baseUrl + '/City.xml>Xml</a>';
     htmlEle += '</nav></div>';
     return htmlEle;
 }
