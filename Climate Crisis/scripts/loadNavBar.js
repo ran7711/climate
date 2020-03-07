@@ -1,5 +1,5 @@
 
-
+/* Loading Nav Bar Dynamctly for each page*/
 function loadnavBar(){
 
     var getUrl = window.location;
@@ -8,7 +8,7 @@ function loadnavBar(){
     $(".nav").replaceWith(data);
 }
 
-
+/* Building HTML Navbar Element*/
 function buildNav(baseUrl){
     var htmlEle = '<div class="nav-scroller py-1 mb-2">';
     htmlEle += '<nav class="nav d-flex justify-content-between">';
