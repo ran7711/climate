@@ -6,6 +6,7 @@ function loadnavBar(){
     var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + '/Climate%20Crisis';
     var data = buildNav(baseUrl);
     $(".nav").replaceWith(data);
+    console.log(data);
 }
 
 /* Building HTML Navbar Element*/

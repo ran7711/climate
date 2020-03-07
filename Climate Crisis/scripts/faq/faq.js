@@ -6,6 +6,9 @@
         renderCardClasses();
 
     }
+
+    console.log(renderData());
+
     function renderBtnAttributes(){
 
         var faqs = document.querySelectorAll(".btnSizing");
@@ -16,6 +19,9 @@
         }
     }
 
+
+
+
     function renderCardClasses(){
 
         var hiddenCards = document.querySelectorAll(".collapse");
@@ -25,6 +31,9 @@
         }
 
     }
+
+
+
 
     function toggleFaq(i){
         $('.hiddenCard' + i).toggle();
