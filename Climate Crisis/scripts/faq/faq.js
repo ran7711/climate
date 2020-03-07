@@ -1,7 +1,7 @@
 "use strict";
 
     function renderData(){
-
+        loadnavBar();
         renderBtnAttributes();
         renderCardClasses();
 

@@ -148,9 +148,13 @@ h1, h2, h3, h4, h5, h6 {
     object-fit: cover;
 }
 
-imageSize{
+.imageSize{
 
     height: 350px !important;
     max-width: 120px;
 }
 
+.rtl{
+    direction: rtl !important;
+    text-align: right !important;
+}

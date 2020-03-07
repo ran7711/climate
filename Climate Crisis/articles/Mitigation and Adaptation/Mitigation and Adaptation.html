@@ -9,6 +9,9 @@
     <script src="../../lib/jQuery/jquery-3.4.1.min.js"></script>
     <script src="../../lib/bootstrap-js/bootstrap.bundle.js"></script>
 
+    <!--  Load NavBar -->
+    <script  src="../../scripts/loadNavBar.js"></script>
+
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="../../style/bootstrap-css/bootstrap.css">
 
@@ -17,26 +20,14 @@
     <link rel="stylesheet" type="text/css" href="../../style/main.css">
 
 </head>
-<body>
+<body onload="loadnavBar()">
 <main role="main" class="container">
 
     <div class="row flex-nowrap align-items-center justify-content-center">
         <a class="blog-header-logo text-dark text-center" href="../../index.html">Ilay's Ran Climate Blog</a>
     </div>
 
-    <div class="nav-scroller py-1 mb-2">
-        <nav class="nav d-flex justify-content-between">
-            <a class="p-2 text-muted" href="text-manipulation.html">Text-Manipulation</a>
-            <a class="p-2 text-muted" href="articles/Australia's%20deadly%20wildfires/australia's-deadly-wildfires.html">Article 1</a>
-            <a class="p-2 text-muted" href="articles/Disturbing%20evidence%20of%20climate%20change/Disturbing%20evidence%20of%20climate%20change.html">Article 2</a>
-            <a class="p-2 text-muted" href="articles/What%20is%20Global%20Warming/What%20is%20Global%20Warming.html">Article 3</a>
-            <a class="p-2 text-muted" href="#">Article 4</a>
-            <a class="p-2 text-muted" href="#">Article 5</a>
-            <a class="p-2 text-muted" href="#">Article 6</a>
-            <a class="p-2 text-muted" href="faq.html">FAQ</a>
-            <a class="p-2 text-muted" href="contact-us.html">Contact Us</a>
-        </nav>
-    </div>
+    <div class="nav"></div>
 
 
     <!-- Page Content -->
@@ -65,7 +56,7 @@
                 <h2>Terrifying proof of global warming</h2>
                 <!-- Preview Image -->
                 <div class="max-size">
-                    <img class="img-fluid rounded imageSize" src="../../media/Mitigation%20and%20Adaptation.jpg" alt="Mitigation and Adaptation">
+                    <img class="img-fluid rounded" src="../../media/Mitigation%20and%20Adaptation.jpg" alt="Mitigation and Adaptation">
                 </div>
                 <hr>
 
