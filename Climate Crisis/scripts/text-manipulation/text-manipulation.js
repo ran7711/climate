@@ -2,7 +2,7 @@
 
 
 function getText(){
-console.log(getText())
+console.log(getText());
     var textEleme = document.getElementById("textReverse");
     var wordsArr = textEleme.innerText.split(" ");
     textEleme.innerHTML = reverse_words(wordsArr);
