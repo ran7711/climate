@@ -51,7 +51,7 @@ function sendForm(form){
     $.ajax({
         type: "POST",
         dataType: "json",
-        url: "form_handler.php", /* Backend Server URL should catch the form */
+        url: "http://jkorpela.fi/cgi-bin/echo.cgi", /* Backend Server URL should catch the form */
         data: form,
         success: function() {
             // callback code here
@@ -59,8 +59,6 @@ function sendForm(form){
         },
         error: function (data) {
             console.log("An error occurred.");
-            console.log(form);
-            console.log(data);
         }
     });
 }
